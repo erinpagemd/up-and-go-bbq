@@ -1,6 +1,15 @@
 var gulp = require('gulp');
 var jade = require('gulp-jade');
 var copy = require('gulp-copy');
+var sass = require('gulp-sass');
+
+//////////SASS////////////////////////////////////
+
+gulp.task('sass', function () {
+  gulp.src('./app/style/*.scss')
+    .pipe(sass())
+    .pipe(gulp.dest('./public/css/'));
+});
 
 //////////COPY////////////////////////////////////
 
