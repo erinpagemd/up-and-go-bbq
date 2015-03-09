@@ -1,0 +1,27 @@
+{
+  "name": "best-review",
+  "version": "1.0.0",
+  "description": "Angular app using the Best Buy Developer API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erinpagemd/best-review.git"
+  },
+  "author": "Erin M Page",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erinpagemd/best-review/issues"
+  },
+  "homepage": "https://github.com/erinpagemd/best-review",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "^1.3.12",
+    "gulp": "^3.8.11",
+    "gulp-jade": "^1.0.0",
+    "jade": "^1.9.2",
+    "node-sass": "^2.0.1"
+  }
+}
