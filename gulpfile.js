@@ -22,8 +22,6 @@ gulp.task('copy', function () {
 //////////JADE////////////////////////////////////
 
 gulp.task('jade', function() {
-  var YOUR_LOCALS = {};
-
   gulp.src('./app/*.jade')
     .pipe(jade({pretty: true, doctype: 'html'}))
     .on('error', console.error.bind(console))
@@ -32,4 +30,4 @@ gulp.task('jade', function() {
 
 //////////DEFAULT////////////////////////////////////
 
-gulp.task('default', ['copy', 'jade']);
+gulp.task('default', ['copy', 'jade', 'sass']);
