@@ -1,5 +1,14 @@
 var gulp = require('gulp');
 var jade = require('gulp-jade');
+var copy = require('gulp-copy');
+
+//////////COPY////////////////////////////////////
+
+gulp.task('copy', function () {
+  gulp.src('./app/js/*.js')
+  .pipe(copy('./public/scripts/', {prefix:2}))
+
+});
 
 //////////JADE////////////////////////////////////
 
@@ -14,6 +23,4 @@ gulp.task('jade', function() {
 
 //////////DEFAULT////////////////////////////////////
 
-gulp.task('default', function () {
-  //default code here
-});
+gulp.task('default', ['copy', 'jade']);
