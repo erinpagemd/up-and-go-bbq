@@ -2,12 +2,21 @@ var gulp = require('gulp');
 var jade = require('gulp-jade');
 var copy = require('gulp-copy');
 var sass = require('gulp-sass');
+var watch = require('gulp-watch');
+
+//////////WATCH////////////////////////////////////
+gulp.task('watch', function () {
+  gulp.src('./app/')
+    .pipe(watch('./app/'))
+    .pipe(gulp.dest('./build/'));
+});
 
 //////////SASS////////////////////////////////////
 
 gulp.task('sass', function () {
   gulp.src('./app/style/*.scss')
     .pipe(sass())
+    .on('error', console.error.bind(console))
     .pipe(gulp.dest('./public/css/'));
 });
 
@@ -30,4 +39,4 @@ gulp.task('jade', function() {
 
 //////////DEFAULT////////////////////////////////////
 
-gulp.task('default', ['copy', 'jade', 'sass']);
+gulp.task('default', ['copy', 'jade', 'sass', 'watch']);
