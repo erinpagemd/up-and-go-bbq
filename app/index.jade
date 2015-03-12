@@ -5,11 +5,29 @@ html
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible' content='IE=edge')
     link(rel='stylesheet' href='css/style.css' type='text/css')
-    title Best Reviews
+    title Full Contact
   body
-    h1 Hello World!
+    .container
+      h1 Hello World!
+      
+      nav.navbar.navbar-default
+       .container-fluid
+         .navbar-header
+           button.navbar-toggle.collapsed(data-toggle="collapse", data-target="#navbar")
+             span.sr-only Toggle navigation
+             span.icon-bar
+             span.icon-bar
+             span.icon-bar
+           a.navbar-brand(ui-sref='home') Stalker
+         #navbar.collapse.navbar-collapse
+           ul.nav.navbar-nav.navbar-right
+             li: a(ui-sref='home'): i.fa.fa-home &nbsp; Home
+             li: a(ui-sref='search'): i.fa.fa-bolt &nbsp; Search
+             li: a(ui-sref='about'): i.fa.fa-truck &nbsp; About
 
-    script(type='text/javascript' src='vendor/jquery/dist/jquery.js')
-    script(type='text/javascript' src='vendor/lodash/lodash.js')
-    script(type='text/javascript' src='vendor/angular/angular.js')
-    script(type='text/javascript' src='scripts/main.js')
+      
+    script(src='vendor/jquery/dist/jquery.js')
+    script(src='vendor/lodash/lodash.js')
+    script(src='vendor/angular/angular.js')
+    script(src='vendor/angular-ui-router/release/angular-ui-router.js')
+    script(src='index.js')

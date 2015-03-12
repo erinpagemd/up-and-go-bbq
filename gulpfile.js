@@ -6,37 +6,29 @@ var watch = require('gulp-watch');
 
 //////////WATCH////////////////////////////////////
 gulp.task('watch', function () {
-  gulp.src('./app/')
-    .pipe(watch('./app/'))
-    .pipe(gulp.dest('build'));
+  watch('./app/**/*', function() {
+    gulp.start('build');
+  });
 });
-
 //////////SASS////////////////////////////////////
-
 gulp.task('sass', function () {
-  gulp.src('./app/style/*.scss')
+  gulp.src('./app/**/*.scss')
     .pipe(sass())
     .on('error', console.error.bind(console))
     .pipe(gulp.dest('./public/css/'));
 });
-
 //////////COPY////////////////////////////////////
-
 gulp.task('copy', function () {
-  gulp.src('./app/js/*.js')
-  .pipe(copy('./public/scripts/', {prefix:2}))
-
+  gulp.src(['./app/**/*.js', './app/**/*.jpg', './app/**/*.jpeg', './app/**/*.png'])
+  .pipe(copy('./public/', {prefix:1}))
 });
-
 //////////JADE////////////////////////////////////
-
 gulp.task('jade', function() {
-  gulp.src('./app/*.jade')
+  gulp.src('./app/**/*.jade')
     .pipe(jade({pretty: true, doctype: 'html'}))
     .on('error', console.error.bind(console))
     .pipe(gulp.dest('./public/'))
 });
-
 //////////DEFAULT////////////////////////////////////
-
 gulp.task('build', ['copy', 'jade', 'sass']);
+gulp.task('default', ['build', 'watch']);
