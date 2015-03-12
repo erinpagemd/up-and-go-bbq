@@ -15,11 +15,11 @@ gulp.task('sass', function () {
   gulp.src('./app/**/*.scss')
     .pipe(sass())
     .on('error', console.error.bind(console))
-    .pipe(gulp.dest('./public/css/'));
+    .pipe(gulp.dest('./public/'));
 });
 //////////COPY////////////////////////////////////
 gulp.task('copy', function () {
-  gulp.src(['./app/**/*.js', './app/**/*.jpg', './app/**/*.jpeg', './app/**/*.png'])
+  gulp.src(['./app/**/*.js', './app/**/*.jpg', './app/**/*.jpeg', './app/**/*.png', './app/**/*.gif'])
   .pipe(copy('./public/', {prefix:1}))
 });
 //////////JADE////////////////////////////////////

@@ -41,3 +41,7 @@ python -m SimpleHTTPServer
 * organization of files
 * deploy script
 * boilerplate content for angular structure
+
+
+## issues
+* images folder not copying to public
