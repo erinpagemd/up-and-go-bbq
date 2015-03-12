@@ -1,11 +1,34 @@
 # Full-Contact
 
-Using Gulp, Jade, Sass, Bower, Node, Bootstrap
+## Includes the following technologies:
 
-## Use the following commands:
+### Config
+* Gulp
+* Bower for front-end dependencies
+* Node/NPM for additional dependencies
+
+### Style
+* Sass
+* Bootstrap
+* Font-Awesome
+
+### MV*
+* Jade
+* Angular
+* Angular-UI-Router
+
+### NoSQL Database
+* Firebase
+
+
+
+## To Use:
+
+###Use the following commands:
 ```
 npm install
 bower install
+firebase init
 gulp
 ```
 In separate terminal window use
@@ -17,5 +40,5 @@ python -m SimpleHTTPServer
 ## What is coming next
 * live reload
 * partials and organization of files
-
-a5300a1042a39363
+* more tools
+* deploy script
