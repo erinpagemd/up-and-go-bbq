@@ -38,10 +38,6 @@ python -m SimpleHTTPServer
 
 ## What is coming next
 * live reload
-* organization of files
 * deploy script
 * boilerplate content for angular structure
-
-
-## issues
-* images folder not copying to public
+* properly link firebase
