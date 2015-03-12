@@ -1,4 +1,4 @@
-# Full-Contact
+# Template
 
 ## Includes the following technologies:
 
@@ -28,7 +28,6 @@
 ```
 npm install
 bower install
-firebase init
 gulp
 ```
 In separate terminal window use
@@ -39,6 +38,6 @@ python -m SimpleHTTPServer
 
 ## What is coming next
 * live reload
-* partials and organization of files
-* more tools
+* organization of files
 * deploy script
+* boilerplate content for angular structure
