@@ -23,18 +23,6 @@ h1 {
   margin: 5% 0 0 70%;
 }
 
-video {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  background-size: cover;
-}
-
 ////////////////////login view///////////////////////////////////
 
 .main-login {
@@ -69,21 +57,21 @@ form {
     background-color: red;
     color: white;
   }
-
+}
   ///////////////////////////////HTML///////////////////////////////////
 
-  video {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    background-size: cover;
-  }
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background-size: cover;
+}
 
-  body {
-    background-color: #edefed;
-  }
+body {
+  background-color: #edefed;
+}
