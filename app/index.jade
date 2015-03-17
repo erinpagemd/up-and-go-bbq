@@ -5,9 +5,9 @@ html
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible' content='IE=edge')
     link(rel='stylesheet' href='vendor/font-awesome/css/font-awesome.min.css')
-    link(rel='stylesheet' href='css/style.css' type='text/css')
+    link(rel='stylesheet' href='index.css' type='text/css')
     title Template
-  body
+  body(ng-app='tempApp')
     .container
       h1 Hello World!
       
@@ -23,8 +23,9 @@ html
          #navbar.collapse.navbar-collapse
            ul.nav.navbar-nav.navbar-right
              li: a(ui-sref='home'): i.fa.fa-home &nbsp; Home
-             li: a(ui-sref='search'): i.fa.fa-bolt &nbsp; Search
-             li: a(ui-sref='about'): i.fa.fa-truck &nbsp; About
+             li: a(ui-sref='login'): i.fa.fa-bolt &nbsp; Login
+  
+  div(ui-view)
 
       
     script(src='vendor/jquery/dist/jquery.js')
@@ -33,3 +34,5 @@ html
     script(src='vendor/angular/angular.js')
     script(src='vendor/angular-ui-router/release/angular-ui-router.js')
     script(src='index.js')
+    script(src='models/users.js')
+    script(src='views/login.js')

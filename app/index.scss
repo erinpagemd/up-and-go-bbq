@@ -3,3 +3,87 @@
 h1 {
   color: blue;
 }
+
+///////////////////////////////HOME VIEW///////////////////////////////////
+
+.h3-home {
+  color: white;
+  font-size: 10rem;
+  text-align: center;
+}
+
+.h2-home {
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.btn-home {
+  text-align: center;
+  margin: 5% 0 0 70%;
+}
+
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background-size: cover;
+}
+
+////////////////////login view///////////////////////////////////
+
+.main-login {
+  margin: 3% 0;
+  background-color: white;
+  padding: 5%;
+}
+
+.right-half-login {
+  padding: 2% 5%;
+}
+
+.btn-login {
+  margin: 5%;
+
+  button: {
+    margin: 1%;
+  }
+}
+
+/////////////////////////HTML FORM/////////////////////////////
+form {
+  input {
+    background-color: #edefed;
+  }
+
+  td {
+    padding: 2%;
+  }
+
+  .ng-invalid {
+    background-color: red;
+    color: white;
+  }
+
+  ///////////////////////////////HTML///////////////////////////////////
+
+  video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+  }
+
+  body {
+    background-color: #edefed;
+  }
