@@ -5,13 +5,13 @@
 //     Firebase = require('firebase');
 
 angular
-.module('tempApp', ['ui.router'])
-.constant('BASE_URL', 'https://temp-app.firebaseio.com')
+.module('bbqApp', ['ui.router'])
 .config(function($stateProvider, $urlRouterProvider){
   $urlRouterProvider.otherwise('/');
 
   $stateProvider
     .state('home', {url:'/', templateUrl:'views/home.html'})
-    .state('login', {url:'/login', templateUrl:'views/login.html', controller:'LoginCtrl'})
+    .state('menu', {url:'/menu', templateUrl:'views/menu.html'})
+    .state('contact', {url:'/contact', templateUrl:'views/contact.html'})
 
 });
