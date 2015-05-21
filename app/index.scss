@@ -6,29 +6,22 @@ h1 {
 
 ///////////////////////////////HOME VIEW///////////////////////////////////
 
-.h3-home {
-  font-size: 10rem;
-  text-align: center;
-}
-
-////////////////////login view///////////////////////////////////
-
-.main-login {
+#home-view {
+  padding-top: 80px;
   margin: 3% 0;
-  background-color: white;
-  padding: 5%;
-}
+  height: 100%;
+  background-image: url('images/pit_both_sides_open.jpg');
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  color: white;
 
-.right-half-login {
-  padding: 2% 5%;
-}
-
-.btn-login {
-  margin: 5%;
-
-  button: {
-    margin: 1%;
+  .h3-home {
+    font-size: 10rem;
+    text-align: center;
   }
+
 }
 
 /////////////////////////HTML FORM/////////////////////////////
