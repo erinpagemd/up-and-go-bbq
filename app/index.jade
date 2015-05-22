@@ -8,8 +8,8 @@ html
     link(rel='stylesheet' href='index.css' type='text/css')
     title Up and Go BBQ
   body(ng-app='bbqApp')
-    .container
-      nav.navbar.navbar-default
+    .nav-container
+      nav.navbar.navbar-inverse
        .container-fluid
          .navbar-header
            button.navbar-toggle.collapsed(data-toggle="collapse", data-target="#navbar")
@@ -35,4 +35,3 @@ html
     script(src='vendor/angular-ui-router/release/angular-ui-router.js')
     script(src='index.js')
     script(src='models/users.js')
-    script(src='views/login.js')

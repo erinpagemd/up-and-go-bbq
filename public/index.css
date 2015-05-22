@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Russo+One);
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -4903,22 +4904,38 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
-h1 {
-  color: blue; }
-
-#home-view {
-  padding-top: 80px;
-  margin: 3% 0;
-  height: 100%;
-  background-image: url('images/pit_both_sides_open.jpg');
+#schedule-view #schedule-div-main {
+  background-image: url('images/vaughan_with_sign.jpg');
   background-position: center;
   background-size: cover;
-  text-align: center;
   position: relative;
-  color: white; }
-  #home-view .h3-home {
-    font-size: 10rem;
-    text-align: center; }
+  height: 100%;
+  color: white;
+  padding: 25% 5%; }
+
+#home-view {
+  text-align: center;
+  color: white;
+  margin: 0;
+  font-family: 'Russo One', sans-serif; }
+  #home-view #home-div-main {
+    padding: 15% 0 20%;
+    background-image: url('images/pit_both_sides_open.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100%; }
+    #home-view #home-div-main h2 {
+      font-size: 10rem; }
+    #home-view #home-div-main h3 {
+      font-size: 5rem; }
+  #home-view .home-info {
+    background-color: blue;
+    padding: 1% 0; }
+
+.navbar {
+  height: 100%;
+  margin: 0; }
 
 form input {
   background-color: #edefed; }
@@ -4927,17 +4944,6 @@ form td {
 form .ng-invalid {
   background-color: red;
   color: white; }
-
-video {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  background-size: cover; }
 
 body {
   background-color: #edefed; }
