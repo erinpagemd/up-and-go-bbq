@@ -14,7 +14,6 @@
 
   form {
     padding: 5% 0;
-
   }
 
   .form-group {
@@ -61,8 +60,15 @@
   }
 
   .home-info {
-    background-color: blue;
     padding: 1% 0;
+    margin: 1%;
+
+    h1 {
+      padding: 5% 0;
+      margin: 5% 2%;
+      font-size: 5rem;
+      color: black;
+    }
   }
 
 

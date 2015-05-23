@@ -4935,8 +4935,13 @@ button.close {
     #home-view #home-div-main h3 {
       font-size: 5rem; }
   #home-view .home-info {
-    background-color: blue;
-    padding: 1% 0; }
+    padding: 1% 0;
+    margin: 1%; }
+    #home-view .home-info h1 {
+      padding: 5% 0;
+      margin: 5% 2%;
+      font-size: 5rem;
+      color: black; }
 
 .navbar {
   height: 100%;

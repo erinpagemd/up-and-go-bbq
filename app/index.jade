@@ -6,6 +6,7 @@ html
     meta(http-equiv='X-UA-Compatible' content='IE=edge')
     link(rel='stylesheet' href='vendor/font-awesome/css/font-awesome.min.css')
     link(rel='stylesheet' href='index.css' type='text/css')
+    link(rel='shortcut icon' type='image/x-icon' href='images/favicon.ico')
     title Up and Go BBQ
   body(ng-app='bbqApp')
     .nav-container
@@ -21,9 +22,9 @@ html
          #navbar.collapse.navbar-collapse
            ul.nav.navbar-nav.navbar-right
              li: a(ui-sref='home'): i.fa.fa-home &nbsp; Home
-             li: a(ui-sref='menu'): i.fa.fa-bolt &nbsp; Menu
-             li: a(ui-sref='schedule'): i.fa.fa-bolt &nbsp; Schedule
-             li: a(ui-sref='contact'): i.fa.fa-bolt &nbsp; Contact
+             li: a(ui-sref='menu'): i.fa.fa-cutlery &nbsp; Menu
+             li: a(ui-sref='schedule'): i.fa.fa-map-marker &nbsp; Schedule
+             li: a(ui-sref='contact'): i.fa.fa-envelope-o &nbsp; Contact
   
   div(ui-view)
 
