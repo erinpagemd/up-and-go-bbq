@@ -1,6 +1,37 @@
 @import '../public/vendor/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
 @import url(http://fonts.googleapis.com/css?family=Russo+One);
 
+/////////////////////////////// MENU VIEW ///////////////////////////////////
+
+#menu-view {
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+
+  h1 {
+    font-size: 10rem;
+    padding: 2%;
+  }
+
+  h2 {
+    font-size: 5rem;
+  }
+
+  .menu-list {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .menu-item {
+    margin: 2%;
+    padding: 2%;
+  }
+
+  h3 {
+    display: inline-block;
+    padding: 2%;
+    font-size: 3rem;
+  }
+}
+
 /////////////////////////////// CONTACT VIEW ///////////////////////////////////
 
 #contact-view {
