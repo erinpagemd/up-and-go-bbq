@@ -6,12 +6,13 @@
 #schedule-view {
   text-align: center;
   font-family: 'Russo One', sans-serif;
-  padding: 0 0 20%;
+  padding: 5% 0 20%;
   background-image: url('images/googlemap.png');
   background-position: center;
   background-size: cover;
   position: relative;
   height: 100%;
+
 
   h1 {
     font-size: 10rem;
@@ -33,6 +34,7 @@
 /////////////////////////////// MENU VIEW ///////////////////////////////////
 
 #menu-view {
+  padding-top: 70px;
   text-align: center;
   font-family: 'Russo One', sans-serif;
 
@@ -64,6 +66,7 @@
 /////////////////////////////// CONTACT VIEW ///////////////////////////////////
 
 #contact-view {
+  padding-top: 70px;
   text-align: center;
 
   #contact-div-main {
@@ -82,7 +85,8 @@
 
   button {
     margin: 1%;
-    padding: 2% 5%;
+    padding: 1% 5%;
+    font-size: 2rem;
   }
 
 

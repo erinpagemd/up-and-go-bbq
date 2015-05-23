@@ -4907,7 +4907,7 @@ button.close {
 #schedule-view {
   text-align: center;
   font-family: 'Russo One', sans-serif;
-  padding: 0 0 20%;
+  padding: 5% 0 20%;
   background-image: url('images/googlemap.png');
   background-position: center;
   background-size: cover;
@@ -4923,6 +4923,7 @@ button.close {
     padding: 2% 0; }
 
 #menu-view {
+  padding-top: 70px;
   text-align: center;
   font-family: 'Russo One', sans-serif; }
   #menu-view h1 {
@@ -4941,6 +4942,7 @@ button.close {
     font-size: 3rem; }
 
 #contact-view {
+  padding-top: 70px;
   text-align: center; }
   #contact-view #contact-div-main img {
     margin: 5% 0; }
@@ -4950,7 +4952,8 @@ button.close {
     padding: 3% 0; }
   #contact-view button {
     margin: 1%;
-    padding: 2% 5%; }
+    padding: 1% 5%;
+    font-size: 2rem; }
   #contact-view h2, #contact-view h3 {
     font-size: 2rem; }
 
