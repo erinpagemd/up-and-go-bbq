@@ -4904,14 +4904,19 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
-#schedule-view #schedule-div-main {
-  background-image: url('images/vaughan_with_sign.jpg');
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  height: 100%;
-  color: white;
-  padding: 25% 5%; }
+#schedule-view {
+  text-align: center; }
+  #schedule-view #schedule-div-main img {
+    margin: 5% 0; }
+  #schedule-view form {
+    padding: 5% 0; }
+  #schedule-view .form-group {
+    padding: 3% 0; }
+  #schedule-view button {
+    margin: 1%;
+    padding: 2% 5%; }
+  #schedule-view h2, #schedule-view h3 {
+    font-size: 2rem; }
 
 #home-view {
   text-align: center;
@@ -4936,14 +4941,6 @@ button.close {
 .navbar {
   height: 100%;
   margin: 0; }
-
-form input {
-  background-color: #edefed; }
-form td {
-  padding: 2%; }
-form .ng-invalid {
-  background-color: red;
-  color: white; }
 
 body {
   background-color: #edefed; }

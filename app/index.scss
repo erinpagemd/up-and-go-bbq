@@ -4,16 +4,34 @@
 /////////////////////////////// SCHEDULE VIEW ///////////////////////////////////
 
 #schedule-view {
+  text-align: center;
 
   #schedule-div-main {
-    background-image: url('images/vaughan_with_sign.jpg');
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    height: 100%;
-    color: white;
-    padding: 25% 5%;
+    img {
+      margin: 5% 0;
+    }
   }
+
+  form {
+    padding: 5% 0;
+
+  }
+
+  .form-group {
+    padding: 3% 0;
+  }
+
+  button {
+    margin: 1%;
+    padding: 2% 5%;
+  }
+
+
+  h2, h3 {
+    font-size: 2rem;
+  }
+
+
 }
 
 
@@ -58,22 +76,7 @@
   margin: 0;
 }
 
-///////////////////////// HTML FORM /////////////////////////////
-form {
-  input {
-    background-color: #edefed;
-  }
-
-  td {
-    padding: 2%;
-  }
-
-  .ng-invalid {
-    background-color: red;
-    color: white;
-  }
-}
-  ///////////////////////////////HTML///////////////////////////////////
+///////////////////////////////HTML///////////////////////////////////
 
 body {
   background-color: #edefed;
