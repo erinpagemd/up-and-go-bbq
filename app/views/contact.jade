@@ -1,12 +1,32 @@
-.container-fluid
-  .row
-    h1 Contact
-    h2 Vaughan Johnson
-    h3 615.818.6656
-    h3 615.596.6544
-    h4 facebook
-    h4 instagram
-    h4 upandgobbq@outlook.com
-    
-  .row
-    h2 contact form
+#contact-view.container-fluid
+  #contact-div-main.row
+    .col-sm-6
+      img(src="images/vaughan_with_sign.jpg" alt='Vaughan with Sign')
+    .col-sm-6
+      .row
+        h3 615.818.6656
+        h3 615.596.6544
+        h4 facebook
+        h4 instagram
+        h4 upandgobbq@outlook.com
+      .row
+        form
+          h1 Send Vaughan a Message
+          .form-group
+            label.col-sm-2(control-label) Name
+            .col-sm-9
+              input#name.form-control(placeholder='bob smith' type='test' name='name')
+          .form-group
+            label.col-sm-2(control-label) Email
+            .col-sm-9
+              input#email.form-control(placeholder='bob@aol.com' type='email' name='email')
+          .form-group
+            label.col-sm-2(control-label) Phone
+            .col-sm-9
+              input#phone.form-control(placeholder="867.5309" name='phone')  
+          .form-group
+            label.col-sm-2(control-label) Message
+            .col-sm-9
+              textarea#message.form-control(placeholder="send me some awesomeness" name='message')
+          .form-group
+            button.btn.btn-success Submit

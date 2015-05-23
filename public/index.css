@@ -4904,18 +4904,18 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
-#schedule-view {
+#contact-view {
   text-align: center; }
-  #schedule-view #schedule-div-main img {
+  #contact-view #contact-div-main img {
     margin: 5% 0; }
-  #schedule-view form {
+  #contact-view form {
     padding: 5% 0; }
-  #schedule-view .form-group {
+  #contact-view .form-group {
     padding: 3% 0; }
-  #schedule-view button {
+  #contact-view button {
     margin: 1%;
     padding: 2% 5%; }
-  #schedule-view h2, #schedule-view h3 {
+  #contact-view h2, #contact-view h3 {
     font-size: 2rem; }
 
 #home-view {
