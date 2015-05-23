@@ -1,6 +1,35 @@
 @import '../public/vendor/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
 @import url(http://fonts.googleapis.com/css?family=Russo+One);
 
+/////////////////////////////// SCHEDULE VIEW ///////////////////////////////////
+
+#schedule-view {
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  padding: 0 0 20%;
+  background-image: url('images/googlemap.png');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+
+  h1 {
+    font-size: 10rem;
+    padding: 2%;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  .schedule-list {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2% 0;
+  }
+
+}
+
+
 /////////////////////////////// MENU VIEW ///////////////////////////////////
 
 #menu-view {
@@ -82,7 +111,7 @@
     height: 100%;
 
     h2 {
-      font-size: 10rem;
+      font-size: 15rem;
     }
 
     h3 {

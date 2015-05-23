@@ -4904,6 +4904,24 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+#schedule-view {
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  padding: 0 0 20%;
+  background-image: url('images/googlemap.png');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100%; }
+  #schedule-view h1 {
+    font-size: 10rem;
+    padding: 2%; }
+  #schedule-view h2 {
+    font-size: 3rem; }
+  #schedule-view .schedule-list {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2% 0; }
+
 #menu-view {
   text-align: center;
   font-family: 'Russo One', sans-serif; }
@@ -4949,7 +4967,7 @@ button.close {
     position: relative;
     height: 100%; }
     #home-view #home-div-main h2 {
-      font-size: 10rem; }
+      font-size: 15rem; }
     #home-view #home-div-main h3 {
       font-size: 5rem; }
   #home-view .home-info {
