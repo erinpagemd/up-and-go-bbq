@@ -1,8 +1,19 @@
 var gulp = require('gulp');
+var connect = require('gulp-connect');
 var jade = require('gulp-jade');
 var copy = require('gulp-copy');
 var sass = require('gulp-sass');
 var watch = require('gulp-watch');
+var livereload = require('gulp-livereload');
+
+//////////CONNECT////////////////////////////////////
+gulp.task('connect', function(){
+  connect.server({
+    root: ['public'],
+    port: 8000,
+    livereload: true
+  });
+});
 
 //////////WATCH////////////////////////////////////
 gulp.task('watch', function () {
@@ -31,4 +42,4 @@ gulp.task('jade', function() {
 });
 //////////DEFAULT////////////////////////////////////
 gulp.task('build', ['copy', 'jade', 'sass']);
-gulp.task('default', ['build', 'watch']);
+gulp.task('default', ['connect', 'watch']);

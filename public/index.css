@@ -4958,7 +4958,6 @@ button.close {
     font-size: 2rem; }
 
 #home-view {
-  text-align: center;
   color: white;
   margin: 0;
   font-family: 'Russo One', sans-serif; }
@@ -4968,7 +4967,8 @@ button.close {
     background-position: center;
     background-size: cover;
     position: relative;
-    height: 100%; }
+    height: 100%;
+    text-align: center; }
     #home-view #home-div-main h2 {
       font-size: 15rem; }
     #home-view #home-div-main h3 {
@@ -4976,6 +4976,10 @@ button.close {
   #home-view .home-info {
     padding: 1% 0;
     margin: 1%; }
+    #home-view .home-info .home-left {
+      padding-left: 20%; }
+    #home-view .home-info .home-right {
+      text-align: right; }
     #home-view .home-info h1 {
       padding: 5% 0;
       margin: 5% 2%;

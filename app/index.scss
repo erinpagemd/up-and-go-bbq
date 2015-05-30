@@ -101,7 +101,6 @@
 /////////////////////////////// HOME VIEW ///////////////////////////////////
 
 #home-view {
-  text-align: center;
   color: white;
   margin: 0;
   font-family: 'Russo One', sans-serif;
@@ -113,6 +112,7 @@
     background-size: cover;
     position: relative;
     height: 100%;
+    text-align: center;
 
     h2 {
       font-size: 15rem;
@@ -126,6 +126,14 @@
   .home-info {
     padding: 1% 0;
     margin: 1%;
+
+    .home-left {
+      padding-left: 20%;
+    }
+
+    .home-right {
+      text-align: right;
+    }
 
     h1 {
       padding: 5% 0;
