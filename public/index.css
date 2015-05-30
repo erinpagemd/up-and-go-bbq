@@ -4943,7 +4943,8 @@ button.close {
 
 #contact-view {
   padding-top: 70px;
-  text-align: center; }
+  text-align: center;
+  font-family: 'Russo One', sans-serif; }
   #contact-view #contact-div-main img {
     margin: 5% 0; }
   #contact-view form {
