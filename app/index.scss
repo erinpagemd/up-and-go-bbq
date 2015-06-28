@@ -125,26 +125,35 @@
     }
   }
 
-  .home-info {
-    padding: 1% 0;
-    margin: 1%;
-
-    .home-left {
-      padding-left: 20%;
-    }
-
-    .home-right {
-      text-align: right;
-    }
-
-    h1 {
-      padding: 5% 0;
-      margin: 5% 2%;
-      font-size: 5rem;
-      color: black;
-    }
+  #vaughan-grill {
+    background-image: url('images/vaughan_with_grill.jpg');
   }
 
+  #open-fire {
+    background-image: url('images/open_fire.jpg');
+  }
+
+  #happy-customers {
+    background-image: url('images/happy_customers.jpg');
+  }
+
+  .home-info-image {
+    background-position: center;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    height: 100%;
+    text-align: center;
+    border: 5px solid white;
+    padding: 3%;
+  }
+
+  .home-info {
+    margin-top: 3%;
+    h1 {
+      padding: 15% 0;
+    }
+  }
 
 }
 
