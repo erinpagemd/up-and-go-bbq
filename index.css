@@ -4974,18 +4974,25 @@ button.close {
       font-size: 15rem; }
     #home-view #home-div-main h3 {
       font-size: 5rem; }
+  #home-view #vaughan-grill {
+    background-image: url('images/vaughan_with_grill.jpg'); }
+  #home-view #open-fire {
+    background-image: url('images/open_fire.jpg'); }
+  #home-view #happy-customers {
+    background-image: url('images/happy_customers.jpg'); }
+  #home-view .home-info-image {
+    background-position: center;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    height: 100%;
+    text-align: center;
+    border: 5px solid white;
+    padding: 3%; }
   #home-view .home-info {
-    padding: 1% 0;
-    margin: 1%; }
-    #home-view .home-info .home-left {
-      padding-left: 20%; }
-    #home-view .home-info .home-right {
-      text-align: right; }
+    margin-top: 3%; }
     #home-view .home-info h1 {
-      padding: 5% 0;
-      margin: 5% 2%;
-      font-size: 5rem;
-      color: black; }
+      padding: 15% 0; }
 
 .navbar {
   height: 100%;
